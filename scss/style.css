@@ -1,0 +1,49 @@
+.anime {
+  margin-top: 100px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.anime__button {
+  position: relative;
+  z-index: 1;
+  margin: 10px;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 2rem;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5);
+  background-color: #b17676;
+  color: #c6cad3;
+  border-radius: 90px;
+  padding: 20px 30px;
+}
+.anime__button:hover {
+  background-color: #b17676;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+}
+.anime__button:focus {
+  background-color: #b17676;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+}
+.anime__button:disabled {
+  background-color: grey;
+  color: black;
+}
+.anime__block {
+  opacity: 1;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5);
+}
+.anime__block:nth-child(3n+2) {
+  background-color: black;
+}
+.anime__block:nth-child(3n+3) {
+  background-color: #0034A8;
+}/*# sourceMappingURL=style.css.map */
